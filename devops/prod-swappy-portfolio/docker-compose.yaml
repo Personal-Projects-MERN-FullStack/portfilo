@@ -1,0 +1,30 @@
+version: "3.6"
+services:
+  swapnoneel-portfolio:
+    build:
+      context: $PWD/../..
+      dockerfile: $PWD/swapnoneel-portfolio/Dockerfile
+    restart: always
+    expose:
+      - "80"
+      - "443"
+    environment:
+      - VIRTUAL_HOST=swapnoneel.com, www.swapnoneel.com
+      - VIRTUAL_PORT=80
+      - LETSENCRYPT_HOST=swapnoneel.com, www.swapnoneel.com
+      - LETSENCRYPT_EMAIL=swapnoneelsaha111@gmail.com
+  nginx:
+    image: nginx
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    expose:
+      - 80
+    depends_on:
+      - swapnoneel-react-portfolio
+    links:
+      - swapnoneel-react-portfolio
+
+networks:
+  default:
+    external:
+      name: nginx-proxy

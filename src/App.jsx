@@ -31,7 +31,7 @@ function App() {
         <About />
         <Services />
         <Resume />
-        <Blog />
+        {/* <Blog /> */}
         <Portfolio />
         <Contact theme={theme} />
       </main>

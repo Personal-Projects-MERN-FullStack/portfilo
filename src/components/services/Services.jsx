@@ -15,16 +15,16 @@ const data = [
     {
         id: 2,
         image: Image2,
-        title: "Web Development",
+        title: "Web Applications",
         description:
             "Ensuring that that a website meets the correct standards, and also ensuring it's well maintained",
     },
     {
         id: 3,
         image: Image3,
-        title: "Content Writing",
+        title: "Project Managment",
         description:
-            "Writing high-quality blogs or script-writing for videos in any topic as per customer's choice",
+            "Efficiently coordinating teams and resources to successfully deliver projects on time and within budget.",
     },
 ];
 

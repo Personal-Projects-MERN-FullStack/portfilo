@@ -20,8 +20,7 @@ const Home = () => {
         </span>
 
         <HeaderSocials />
-
-        <a href="#contact">
+        <a href="https://www.linkedin.com/in/vaibhav-mohanalkar-169582233/">
           <button class="blob-btn">
             Contact Me
             <span class="blob-btn__inner">

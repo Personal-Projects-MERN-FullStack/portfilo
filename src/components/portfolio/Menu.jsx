@@ -1,11 +1,11 @@
-import Work1 from "../../assets/Work.png";
-import Work2 from "../../assets/Work1.png";
-import Work3 from "../../assets/Work2.png";
+import work1 from "../../assets/Work.png";
+import work2 from "../../assets/Work1.png";
+import work3 from "../../assets/Work2.png";
 //image should be 330pxX267px
 const Menu = [
   {
     id: 1,
-    image: Work1,
+    image: work1,
     title: "Labour Management System",
     category: "Web Application",
     url: "https://labourconnect.online",
@@ -14,7 +14,7 @@ const Menu = [
   },
   {
     id: 2,
-    image: Work2,
+    image: work2,
     title: "Hospital Managment",
     category: "Web Development",
     url: "http://bloomwithus.co.in/",
@@ -23,7 +23,7 @@ const Menu = [
   },
   {
     id: 3,
-    image: Work3,
+    image: work3,
     title: "Gold Shop Managment",
     category: "Web Development",
     url: "https://aksheyjewellers.com/",

@@ -4,8 +4,8 @@ import Work3 from "../../assets/Work2.png";
 //image should be 330pxX267px
 const Menu = [
   {
-    id: 3,
-    image: Work3,
+    id: 1,
+    image: Work1,
     title: "Labour Management System",
     category: "Web Application",
     url: "https://labourconnect.online",
@@ -13,8 +13,8 @@ const Menu = [
       "https://github.com/Personal-Projects-MERN-FullStack/LabourConnect.git",
   },
   {
-    id: 1,
-    image: Work1,
+    id: 2,
+    image: Work2,
     title: "Hospital Managment",
     category: "Web Development",
     url: "http://bloomwithus.co.in/",
@@ -22,8 +22,8 @@ const Menu = [
       "https://github.com/Php-Projects-Internship-Rudrakasha/Medicio.git",
   },
   {
-    id: 2,
-    image: Work2,
+    id: 3,
+    image: Work3,
     title: "Gold Shop Managment",
     category: "Web Development",
     url: "https://aksheyjewellers.com/",
